@@ -1,8 +1,7 @@
 const express = require("express")
 const app = express()
+const router = require("./routes/userAgent")
 
-app.get("/", (req, res) => {
-  res.send("Welcome to the User-Agent Analytics Tool")
-})
+app.use(router)
 
 module.exports = app
