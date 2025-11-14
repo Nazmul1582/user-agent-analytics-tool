@@ -1,8 +1,9 @@
 const express = require("express")
 const app = express()
 const router = require("./routes/userAgent")
-const saveUserAgent = require("./middleware/userAgent")
+const storeUserAgent = require("./middleware/userAgent")
 
-app.use("/api", saveUserAgent, router)
+app.use(express.json())
+app.use("/api", storeUserAgent, router)
 
 module.exports = app

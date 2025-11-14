@@ -1,6 +1,8 @@
+const saveUserAgent = require("../utils/logger")
+
 const storeUserAgent = (req, res, next) => {
   const userAgent = req.headers["user-agent"]
-  console.log(userAgent)
+  saveUserAgent(userAgent)
 
   next()
 }
