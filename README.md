@@ -31,3 +31,7 @@ npm start
 
 2. View the bar chart - GET /api/analytics
    - URL example: http://localhost:3000/api/analytics
+
+## Screenshot
+
+![Image](./image/user-agents-analytics.png)
