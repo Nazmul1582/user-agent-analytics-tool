@@ -1,6 +1,6 @@
 # A Lightweight User-Agent Analytics Tool
 
-This is a simple user-agent analytics tool using Express.js and using chart.js to show the analytics in a bar chart. This app tracks the user-agents from the request header of users api call and store in a json file using `fs` and `path` modules thougth a middleware. Also send a html file as response where user-agent analytics are showing in a bar chart.
+This is a simple user-agent analytics tool built with Express.js and utilizing chart.js to display analytics in a bar chart. This app tracks the user agents from the request headers of users' API calls and stores them in a JSON file using the `fs` and `path` modules through a middleware. Also, send an HTML file as a response where user-agent analytics are shown in a bar chart.
 
 ## Clone the repository
 
